@@ -1,0 +1,17 @@
+
+.container{
+    height: 250px;
+    background-color: #270570;
+    padding: 2px;
+    border-radius: 20px;
+}
+ 
+.row{
+    margin: 5px;
+}
+
+.form-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

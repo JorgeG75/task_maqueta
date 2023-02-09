@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <div class="row g-1">
+
+            <h2 class="col-md-3 fs-3 text-white">Paquetes Turisticos</h2>
+            <button type="button" class="btn btn-light m-1 col-md-2">Vuelo + Alojamiento</button>
+            <button type="button" class="btn btn-light m-1 col-md-2">Vuelo + 2Alojamiento</button>
+            <button type="button" class="btn btn-light m-1 col-md-2">Vuelo + Auto</button>
+                
+        </div>
+
+        <div class="row g-3">
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Origen" aria-label="First name">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Destino" aria-label="Last name">
+            </div>
+            <div class="col-md-2">
+                <input type="date" class="form-control" placeholder="Fecha ida" aria-label="Fecha Ida">
+            </div>
+            <div class="col-md-2">
+                <input type="date" class="form-control" placeholder="Fecha vuelta" aria-label="Fecha Vuelta">
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary bg-danger">Buscar</button>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="form-check form-switch">
+
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label text-white" for="flexSwitchCheckDefault">Todavía no he decidido la fecha</label>
+              
+            </div>
+            
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Opciones avanzadas del alojamiento
+
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- <div class="container">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+    </div> -->
+
+
+    <div class="input-group">
+        <input name="remitosucursal" id="remitosucursal" type="text" required class="form-control"
+            placeholder="Sucursal">
+        <input name="remitonumero" id="remitonumero" type="text" required class="form-control" placeholder="Numero">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
